@@ -13,4 +13,6 @@ def about(request):
 def api_home(request):
     return Response({
         "message": "CI/CD pipeline is working successfully!",
-        "status": "success"})
+        "status": "success",
+        "version": "1.1",
+    })
