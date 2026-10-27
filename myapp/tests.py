@@ -28,6 +28,7 @@ class ViewTests(TestCase):
             {
                 "message": "CI/CD pipeline is working successfully!",
                 "status": "success",
+                "version": "1.1",
             },
         )
         self.assertEqual(response["Content-Type"], "application/json")
